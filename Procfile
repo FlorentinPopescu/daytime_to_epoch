@@ -1,1 +1,1 @@
-web: python daytime_to_epoch.py
+worker: python daytime_to_epoch
