@@ -38,5 +38,6 @@ def epoch_tm():
 # =================================
 if __name__ == "__main__":
     # PORT = int(os.environ.get("POST", 6738))
-    # APP.run(host="0.0.0.0", port=PORT)
-    APP.run(debug=True)
+    PORT = process.env.PORT || 5000
+    APP.run(host="0.0.0.0", port=PORT)
+    # APP.run(debug=True)
