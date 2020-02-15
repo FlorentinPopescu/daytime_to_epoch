@@ -41,6 +41,6 @@ if __name__ == "__main__":
     # PORT = int(os.environ.get("POST", 6738))
     # APP.run(host="0.0.0.0", port=PORT)
     
-    PORT = process.env.PORT
+    # PORT = process.env.PORT
     APP.run(debug=True)
         
