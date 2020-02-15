@@ -1,1 +1,1 @@
-web: python daytime_to_epoch.py
+web: python main.py
