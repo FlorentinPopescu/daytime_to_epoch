@@ -26,11 +26,11 @@ def local_to_epoch():
     return (str(epoch), local_time)
 
 # ---------------------------------
-@APP.route('/', methods=["GET", "POST"])
+@APP.route('/')
 def epoch_tm():
     """ application """
     page = """
-        <b>{0}</b>
+         <b>{0}</b>
         <hr></hr>
         <b><i>this is the epoch time corresponding to {1}</i></b> 
     """.format(*local_to_epoch())
